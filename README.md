@@ -58,9 +58,7 @@ We did GraphAlgo class that implements GraphAlgoInterface (which represent a col
 ## Third part
 We compared between this project, Ex2 and NetworkX (data structures for graphs, digraphs, and multigraphs).
 
-The comparison included the following components:
-1. Correctness check
-2. Comparative test of runtime on scenarios - with an emphasis on algorithms
+The comparison included comparative test of runtime on scenarios - with an emphasis on algorithms
 
 We compared the following functions:
 
