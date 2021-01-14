@@ -70,7 +70,3 @@ We compared the following functions:
 
 `connected_components()`
 
-
-
-## How to run
-$ git clone https://github.com/uriyashemla/OOP_Ex3.git
