@@ -195,18 +195,20 @@ class GraphAlgo:
 
         the_list = list(set(list1).intersection(list2))
         return the_list
-
     def connected_components(self):
         """
         Finds all the Strongly Connected Component(SCC) in the graph.
         @return: The list all SCC
         """
         list = []
+        flag = True
         nodes = set(self.graph.get_all_v().keys())
-        while len(nodes) != 0:
+        while flag:
             list1 = self.connected_component(nodes.pop())
             list.append(list1)
             nodes = set(nodes)-set(list1)
+            if len(nodes) == 0:
+                flag = False
         return list
 
     def plot_graph(self):
